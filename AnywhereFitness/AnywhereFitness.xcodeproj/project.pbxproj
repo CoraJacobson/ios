@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		1223EB9024ED89C3008E1CF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1223EB8F24ED89C3008E1CF3 /* AppDelegate.swift */; };
 		1223EB9224ED89C3008E1CF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1223EB9124ED89C3008E1CF3 /* SceneDelegate.swift */; };
-		1223EB9724ED89C3008E1CF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1223EB9524ED89C3008E1CF3 /* Main.storyboard */; };
+		1223EB9724ED89C3008E1CF3 /* Opening.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1223EB9524ED89C3008E1CF3 /* Opening.storyboard */; };
 		1223EB9924ED89C6008E1CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1223EB9824ED89C6008E1CF3 /* Assets.xcassets */; };
 		1223EB9C24ED89C6008E1CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1223EB9A24ED89C6008E1CF3 /* LaunchScreen.storyboard */; };
+		1223EBAE24ED94FE008E1CF3 /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1223EBAD24ED94FE008E1CF3 /* OpeningViewController.swift */; };
+		1290AF7B24EDA5480069B8CD /* CustomUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1290AF7A24EDA5480069B8CD /* CustomUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1223EB8C24ED89C3008E1CF3 /* AnywhereFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnywhereFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1223EB8F24ED89C3008E1CF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1223EB9124ED89C3008E1CF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1223EB9624ED89C3008E1CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1223EB9624ED89C3008E1CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Opening.storyboard; sourceTree = "<group>"; };
 		1223EB9824ED89C6008E1CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1223EB9B24ED89C6008E1CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1223EB9D24ED89C6008E1CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1223EBAD24ED94FE008E1CF3 /* OpeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
+		1290AF7A24EDA5480069B8CD /* CustomUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 		1223EBA324ED89D9008E1CF3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1223EBAF24ED9740008E1CF3 /* Videos */,
 				1223EB8F24ED89C3008E1CF3 /* AppDelegate.swift */,
 				1223EB9124ED89C3008E1CF3 /* SceneDelegate.swift */,
 				1223EB9824ED89C6008E1CF3 /* Assets.xcassets */,
@@ -92,6 +97,7 @@
 		1223EBA724ED8A41008E1CF3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1290AF7624EDA4340069B8CD /* CustomUI */,
 				1223EBAA24ED8AAA008E1CF3 /* Storyboards */,
 			);
 			path = Views;
@@ -107,6 +113,7 @@
 		1223EBA924ED8A6C008E1CF3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				1223EBAD24ED94FE008E1CF3 /* OpeningViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -123,7 +130,7 @@
 		1223EBAB24ED8ABD008E1CF3 /* Opening */ = {
 			isa = PBXGroup;
 			children = (
-				1223EB9524ED89C3008E1CF3 /* Main.storyboard */,
+				1223EB9524ED89C3008E1CF3 /* Opening.storyboard */,
 			);
 			path = Opening;
 			sourceTree = "<group>";
@@ -134,6 +141,21 @@
 				1223EB9A24ED89C6008E1CF3 /* LaunchScreen.storyboard */,
 			);
 			path = Launch;
+			sourceTree = "<group>";
+		};
+		1223EBAF24ED9740008E1CF3 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		1290AF7624EDA4340069B8CD /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				1290AF7A24EDA5480069B8CD /* CustomUI.swift */,
+			);
+			path = CustomUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +218,7 @@
 			files = (
 				1223EB9C24ED89C6008E1CF3 /* LaunchScreen.storyboard in Resources */,
 				1223EB9924ED89C6008E1CF3 /* Assets.xcassets in Resources */,
-				1223EB9724ED89C3008E1CF3 /* Main.storyboard in Resources */,
+				1223EB9724ED89C3008E1CF3 /* Opening.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1223EB9024ED89C3008E1CF3 /* AppDelegate.swift in Sources */,
+				1223EBAE24ED94FE008E1CF3 /* OpeningViewController.swift in Sources */,
+				1290AF7B24EDA5480069B8CD /* CustomUI.swift in Sources */,
 				1223EB9224ED89C3008E1CF3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,12 +239,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1223EB9524ED89C3008E1CF3 /* Main.storyboard */ = {
+		1223EB9524ED89C3008E1CF3 /* Opening.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1223EB9624ED89C3008E1CF3 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Opening.storyboard;
 			sourceTree = "<group>";
 		};
 		1223EB9A24ED89C6008E1CF3 /* LaunchScreen.storyboard */ = {
@@ -355,6 +379,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6R6MQNLHPL;
 				INFOPLIST_FILE = /Users/lambda_school_loaner_226/Desktop/Lambda/iOSPT6/BuildWeek/Unit3/ios/AnywhereFitness/AnywhereFitness/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,7 +387,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.LambdaSchool.AnywhereFitness;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -373,6 +398,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6R6MQNLHPL;
 				INFOPLIST_FILE = /Users/lambda_school_loaner_226/Desktop/Lambda/iOSPT6/BuildWeek/Unit3/ios/AnywhereFitness/AnywhereFitness/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +406,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.LambdaSchool.AnywhereFitness;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
