@@ -15,16 +15,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a4p-an-hKl">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lambda_logo" translatesAutoresizingMaskIntoConstraints="NO" id="nbZ-9I-XNB">
+                                <rect key="frame" x="20" y="169" width="374" height="558"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a4p-an-hKl" secondAttribute="trailing" id="0v7-pi-WY0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="a4p-an-hKl" secondAttribute="bottom" id="C7j-D2-XXT"/>
-                            <constraint firstItem="a4p-an-hKl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="naj-NB-ptv"/>
-                            <constraint firstItem="a4p-an-hKl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vsp-MC-6cD"/>
+                            <constraint firstAttribute="trailing" secondItem="nbZ-9I-XNB" secondAttribute="trailing" constant="20" id="1ws-yk-1ex"/>
+                            <constraint firstItem="nbZ-9I-XNB" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="bMF-52-EQO"/>
+                            <constraint firstItem="nbZ-9I-XNB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hYq-xc-ZlA"/>
+                            <constraint firstItem="nbZ-9I-XNB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="rBX-I1-mrJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -34,4 +34,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="lambda_logo" width="2000" height="558"/>
+    </resources>
 </document>
